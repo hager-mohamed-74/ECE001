@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/** nav-bar **/
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px  rgb(0, 76, 240) ;
+    padding: 5px 0 6px 0;
+}
+
+ul.nav-bar li {
+    display: inline-block;
+    padding-left: 18px;
+
+}
+
+
+ul.nav-bar {
+    background-color: rgb(83, 78, 79);
+    position: relative;
+    top: -19px;
+    padding: 8px;
+    text-align: center;
+}
+
+
+a {
+    color: white;
+    font-size: 14px;
+    
+}
+
+/** container div **/
+
+.container {
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.container ul, ol {
+    padding: 10px 10px;
+}
+
+.container ul li, ol li {
+    padding: 10px 0px;
+}
+
+td {
+    padding-left: 5px;
+}
+
+table {
+    width: 500px;
+}
